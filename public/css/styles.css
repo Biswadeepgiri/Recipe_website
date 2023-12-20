@@ -1,0 +1,61 @@
+:root{
+    --bs-font-sans-serif: 'Rubik',sans-serif; 
+    /* resetting thee font from the bootstrap */
+}
+
+.container-xxl {
+    /* increasing the max width of the container */
+    max-width: 1303px;
+}
+
+body {
+    background-image: url("/img/i-like-food.svg");
+    background-color: rgb(243,243,243);
+}
+
+a {
+    /* changing the default b=colour of the bootstrap links */
+    color: var(--bs-dark);
+}
+
+ /* category card styles */
+ 
+.category__link {
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    /* transition: transform 10s; */
+    transform: 250ms all;
+/* chaning the styles of the category links */
+}
+
+.category__link  :hover {
+    transform: scale(1.1);
+    /* chaning the style of the hovering function of category links */
+
+}
+
+.category__img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    margin-bottom: 10px;
+    box-shadow: 0px 3px 6px rgba(0,0,0,.16);
+    overflow: hidden;
+    border-radius: 8px;
+    /* changing the styles of the categories image */
+
+}
+
+.category__img--large {
+
+    height: 280px;
+
+}
+
+.category_img img {
+    width: 100%;
+    object-fit: cover;
+
+}
